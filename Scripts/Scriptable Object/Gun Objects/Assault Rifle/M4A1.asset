@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000ccf4ee29ea8841af583a0b993c069, type: 3}
+  m_Name: M4A1
+  m_EditorClassIdentifier: 
+  magSize: 30
+  currentAmmo: 30
+  reloadTime: 1.5
+  reloading: 0
+  fireMode: 2
+  fireRate: 600
+  burstCount: 3
+  burstDelay: 0.12
+  damage: 22
+  maxDistance: 10000
+  canZoom: 1
+  zoomFOV: 30
+  zoomSpeed: 10
+  baseAccuracy: 0.98
+  crouchAccuracy: 1
+  walkAccuracy: 0.85
+  runAccuracy: 0.6
+  jumpAccuracy: 0.4
+  shakeMagnitude: 0.05
+  shakeDuration: 0.05
+  shakeSmoothness: 20
